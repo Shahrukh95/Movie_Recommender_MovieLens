@@ -52,5 +52,4 @@ Using the clusters formed in Task 4, I find out which genres do users in a clust
 If users in a cluster have made at least 15 good ratings, I suggest other movies from the same cluster that the user has not previously seen. It is assumed that a good rating is atleast 4 stars. It is also assumed that an unwatched movie is an unrated movie.
 ![Task 5 Positive Suggestions](images/Task_5_positive_suggestions.png)
 
-Lets assume we chose user ID 4. If users in a cluster made less than 15 good ratings, I find the 3 three least negatively reviewed genres and use them to suggest new movies to the user. In this case, the new movies will be suggested from the entire movies pool instead of just the cluster that the user belongs to.
-![Task 5 Negative Suggestions](images/Task_5_negative_suggestions.png)
+If users in a cluster made less than 15 good ratings, I find the 3 three least negatively reviewed genres and use them to suggest new movies to the user. In this case, the new movies will be suggested from the entire movies pool instead of just the cluster that the user belongs to.
