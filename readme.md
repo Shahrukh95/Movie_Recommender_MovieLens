@@ -49,7 +49,7 @@ Graph showing their interest by genres:
 Using the clusters formed in Task 4, I find out which genres do users in a cluster like or dislike. To do that, first we enter a user ID for whom we wish to recommend a movie, for example user ID 1:
 ![Task 5 Table](images/Task_5_table.png)
 
-If users in a cluster made at least 15 good ratings, I suggest other movies from the same cluster that the user has not previously seen. These movies will be from the top 3 genres in that cluster. It is assumed that a good rating is atleast 4 stars. It is also assumed that an unwatched movie is an unrated movie.
+If users in a cluster made at least 15 good ratings, I suggest other movies from the same cluster that the user has not previously seen. It is assumed that a good rating is atleast 4 stars. It is also assumed that an unwatched movie is an unrated movie.
 ![Task 5 Positive Suggestions](images/Task_5_positive_suggestions.png)
 
 If users in a cluster made less than 15 good ratings, I find the 3 three least negatively reviewed genres in that cluster and use them to suggest new movies to the user. In this case, the new movies will be suggested from the entire movies pool instead of just the cluster that the user belongs to.
