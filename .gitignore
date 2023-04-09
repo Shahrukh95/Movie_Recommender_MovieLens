@@ -1,0 +1,11 @@
+project_database.db
+data/*
+code/*
+!code/pages/
+!code/homepage.py
+!code/import_to_database.py
+jupyter_notebook/*
+!jupyter_notebook/Task_3_Movies_ratings.ipynb
+!jupyter_notebook/Task_4_K_means.ipynb
+!jupyter_notebook/Task 5-Final.ipynb
+
