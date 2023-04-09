@@ -26,6 +26,7 @@ streamlit run code\homepage.py
 
 ## Task 1 - View Movies
 Type a page number in the input box and you can see the movies in that range:
+![View Movies](images/task_1.png?raw=true)
 
 ## Task 2 - Search Movie
 Search a movie by title:
